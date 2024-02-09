@@ -20,6 +20,7 @@ body {
   position: relative;
   top: 75px;
   width: auto;
+  min-width: 300px; 
   margin: 0px 275px 0px 275px;
   color: white;
   font-size: 75px;
@@ -91,7 +92,7 @@ td {
   color: black;
 }
 
-#overview {
+#main {
   margin: 40px auto;
   padding: 20px;
   background-color: #FFFFFF;
@@ -100,4 +101,26 @@ td {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
+
+button {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  margin-top: 5px;
+  color: black;
+  box-shadow: 0px 0px;
+}
+
